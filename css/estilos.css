@@ -1,0 +1,32 @@
+/*Laptop o PC: +900px, tablet: 481px a 900px, smartphone:-480px*/
+
+/*smartphone:  cortar - cambiar tamaño de imagen a 480px - guardar para web - JPG - Iconos: PNG - bajar calidad - */
+
+/*tablet: cambiar tamaño a 900px - guardar para la web - bajar calidad - */
+
+/*Laptop: recortar - guardar para la web - bajar calidad para que pese menos*/
+
+/*1900*1080*/
+
+/*Optimizar imagenes*/
+
+.formated-section{
+    padding: 60px 0;
+}
+
+.font-oswald{
+    font-family: 'OswaldRegular';
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+@media (min-width: 900px){
+    .img-container{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+}

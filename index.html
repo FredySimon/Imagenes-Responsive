@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IRW</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script>
+        document.createElement("picture");
+    </script>
+    <script src="js/picturefill.min.js" async></script>
+</head>
+
+<body>
+
+
+    <section class="full-width">
+        <figure class="img-container">
+
+            <img src="assets/img/original.jpg" alt="descripcion" class="img-responsive"
+                srcset="assets/img/small.jpg 480w, assets/img/medium.jpg 900w, assets/img/large.jpg 1920w"
+                sizes="(min-width: 900px) 900px, 100vw">
+        </figure>
+    </section>
+    <section class="full-width formated-section">
+        <h2 class="text-center font-oswald">NUESTRAS SUCURSALES</h2>
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+                    <picture>
+                        <source srcset="assets/img/large.jpg 1x, assets/img/medium.jpg 2x" media="(min-width: 800px)"> 
+                            <source srcset="assets/img/small.jpg 1x" media="(min-width: 480px)"> 
+                        <img src="assets/img/Store.jpg" alt="Sucursal" class="img-responsive img-rounted"
+                            srcset="assets/img/Store.jpg 1x, assets/img/original.jpg 2x,"
+                            sizes="(min-width:325px) 325px, 100vw">
+                    </picture>
+
+                    <h3 class="text-center">Resolución</h3>
+                    <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, esse
+                        molestiae alias sunt accusamus dicta mollitia hic qui nisi porro temporibus dolorem dolores
+                        debitis quo atque placeat obcaecati aliquam tenetur!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
